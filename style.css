@@ -1,0 +1,111 @@
+body{
+    background-image: url('pine.jpg');
+    /* background-color: antiquewhite; */
+    background-size: 1600px 800px;
+    object-fit: cover;
+    margin:0px;
+    /* text-align: center; */
+}
+p{
+    text-align: center;
+    text-shadow: 2px 2px 8px #1c94c8;
+}
+ul{
+    display: flex;
+    text-align: center;
+    background-color: rgb(64, 162, 154);
+    margin-left:40%;
+    margin-right:31%;
+    padding-top:30px;
+    padding-bottom: 30px;
+    border-radius:40px;
+    list-style-type: none;
+    font-size: large;
+}
+a{
+    text-decoration: none;
+    /* flex-direction: column; */
+    /* background-color: red; */
+    color:rgb(196, 172, 172);
+    padding:20px;
+}
+a:hover{
+    color:gold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ol{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: antiquewhite;
+    cursor: pointer;
+    /* background-color: blue; */
+    margin-left:40%;
+    margin-right:31%;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+/* ol:hover{
+    color: red;
+}
+a:hover{
+    color:gold
+} */
+
+ol>li>a:hover{
+    color:rgb(73, 61, 163)
+}
+
+/* table{
+    background-color: #1c94c8;
+    margin:100px;
+    /* margin-right: 200px; */
+    /* margin-left:400px; */
+    /* padding-right:400px; */
+    /* text-align: center;
+    color:brown;
+} */
+
+/* th{
+    font-size: larger;
+} */ 
+
+
+table {
+
+    max-width: 100%;
+  
+  }
+  
+  
+  tr:nth-child(odd) {
+  
+    background-color: #eee;
+  
+  }
+  
+  
+  th {
+  
+    background-color: #555;
+  
+    color: #fff;
+  
+  }
+  
+  
+  td {
+  
+    text-align: left;
+  
+    padding: 0.5em 1em;}
+.storage{
+    justify-content: center;
+}
+
+.container{
+    background-color: black;
+    color:rebeccapurple;
+    text-align: right;
+}
